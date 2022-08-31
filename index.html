@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/female-doctor1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Khulna Hearing Center</title>
+</head>
+
+<body id="home">
+    <header class="header">
+        <div class="banner">
+            <div class="banner-wrapper container">
+                <div class="banner-doctor">
+                    <img src="./assets/images/dcotor-profile-photo.jpg" alt="dcotor profile photo">
+                    <p>Professor Dr. S K Bollov</p>
+                </div>
+                <div class="banner-hours">
+                    <img src="./assets/images/icon/clock.svg" alt="clock icon">
+                    <p>Saturday to Thursday - 10AM to 9:30PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="navbar-wrapper container">
+                <div class="navbar-text">
+                    <h3>Khulna Hearing Center</h3>
+                </div>
+                <div class="navbar-list mobile-navbar">
+                    <ul>
+                        <li onclick="home()">Home</li>
+                        <li onclick="services()">Services</li>
+                        <li onclick="product()">Product</li>
+                        <li onclick="form()">Appointment</li>
+                        <li onclick="gallery()">Gallery</li>
+                        <div class="close-navbar">
+                            <img src="./assets/images/icon/navbar-close.svg" alt="category icon close">
+                        </div>
+                    </ul>
+                </div>
+                <div class="open-navbar">
+                    <img src="./assets/images/icon/navbar-open.svg" alt="category icon open">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-wrapper container">
+            <div class="hero-text">
+                <h1>GET <br> THE BEST <br> EAR TREATMENT</BR></h1>
+                <button class="primary-btn">More About us</button>
+            </div>
+            <div class="hero-img" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="./assets/images/female-doctor1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact container">
+        <div class="contact-box" data-aos="fade-up"data-aos-duration="1500">
+            <img src="./assets/images/icon/Calling.svg" alt="icon">
+            <div class="contact-box_text">
+                <h3>Call Us</h3>
+                <p>+880 1720 500 437</p>
+            </div>
+        </div>
+        <div class="contact-box" data-aos="fade-up"data-aos-duration="1500">
+            <img src="./assets/images/icon/Location.svg" alt="icon">
+            <div class="contact-box_text">
+                <h3>Our Location</h3>
+                <p>9079 Park Road London SE80 5WZ</p>
+            </div>
+        </div>
+        <div class="contact-box" data-aos="fade-up"data-aos-duration="1500">
+            <img src="./assets/images/icon/clockbold.svg" alt="icon">
+            <div class="contact-box_text">
+                <h3>Opening Hours</h3>
+                <p>Saturday to Thursday - 10AM to 9:30PM</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services container section">
+        <h2>services</h2>
+        <div class="services-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis magni omnis reprehenderit porro
+                consequuntur minima eum mollitia dignissimos sequi quia dolorem officia fuga id asperiores voluptas
+                eligendi, aliquam ipsam.</p>
+        </div>
+        <div class="services-img">
+            <div class="services-img_box" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="./assets/images/hearing1.jpg" alt="photo">
+                <h3>PTA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellendus natus ipsum deserunt culpa
+                    inventore.</p>
+            </div>
+            <div class="services-img_box" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="./assets/images/hearing2.jpg" alt="photo">
+                <h3>Impedence</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellendus natus ipsum deserunt culpa
+                    inventore.</p>
+            </div>
+            <div class="services-img_box" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="./assets/images/hearing3.jpg" alt="photo">
+                <h3>S.R.T</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellendus natus ipsum deserunt culpa
+                    inventore.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="clinic section">
+        <img src="./assets/images/clinicphoto.jpg" class="bg-clinic" alt="">
+        <div class="clinic-wrapper container">
+            <div class="clinic-img">
+                <img src="./assets/images/female-doctor2.png" alt="">
+            </div>
+            <div class="clinic-text">
+                <h2>Professor Dr. <br> S K Bollov</h2>
+                <p>ENT Speciaist <br> Head & Neck Surgeon, <br> Khulna Medical College</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="form" class="form container section">
+        <h2>Apointment</h2>
+        <div class="form-wrapper">
+            <div class="form-img"  data-aos="fade-down" data-aos-duration="1500">
+                <img src="./assets/images/notification.png" alt="notification 3D icon photo">
+            </div>
+            <form class="form-input">
+                <input type="text" placeholder="Name">
+                <div class="form-input-duo">
+                    <input type="number" placeholder="Phone No.">
+                    <input type="date" placeholder="Date">
+                </div>
+                <textarea cols="15" rows="5" placeholder="Your Message (optional)"></textarea>
+                <button class="primary-btn">Confirm Apointment</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="product" class="shop section">
+        <div class="shop-wrapper container">
+            <div class="shop-title">
+                <h2>Buy an Item</h2>
+            </div>
+            <div class="shop-products">
+                <div class="product-item">
+                    <div class="product-item_text">
+                        <img src="./assets/images/products1.webp" alt="">
+                        <p>Rechargeable CIC Hearing Aid</p>
+                        <h4>59.63$</h4>
+                    </div>
+                    <button class="primary-btn">Buy Now</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-item_text">
+                        <img src="./assets/images/products2.jpg" alt="">
+                        <p>Rechargeable CIC Hearing Aid</p>
+                        <h4>59.63$</h4>
+                    </div>
+                    <button class="primary-btn">Buy Now</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-item_text">
+                        <img src="./assets/images/products3.jpg" alt="">
+                        <p>Rechargeable CIC Hearing Aid</p>
+                        <h4>59.63$</h4>
+                    </div>
+                    <button class="primary-btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-brands container">
+        <img src="./assets/images/company/company-logo1.png" alt="photo">
+        <img src="./assets/images/company/company-logo2.png" alt="photo">
+        <img src="./assets/images/company/company-logo3.png" alt="photo">
+        <img src="./assets/images/company/company-logo4.png" alt="photo">
+    </section>
+
+    <section id="gallery" class="gallery container section">
+        <h2>Gallery</h2>
+        <div class="gallery-photo1">
+            <img src="./assets/images/gallery1.jpg" alt="photo" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+            <img src="./assets/images/gallery2.jpg" alt="photo" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+        </div>
+        <div class="gallery-photo2">
+            <img src="./assets/images/gallery2.jpg" alt="photo" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+            <img src="./assets/images/gallery1.jpg" alt="photo" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+        </div>
+    </section>
+
+    <footer class="footer section">
+        <div class="footer-wrapper container">
+            <div class="footer-box">
+                <h3>Khulna Hearing Center</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis repellendus velit quibusdam impedit
+                    beatae repudiandae, minima doloribus magni atque vero eum, consectetur sit? Praesentium accusantium
+                    ut, dolor provident, velit placeat vero laboriosam fuga inventore cum porro eos aperiam officia
+                    consectetur?</p>
+            </div>
+            <div class="footer-box">
+                <h3>Doctors</h3>
+                <h4>Professor Dr. S K Bollov</h4>
+                <p>ENT Speciaist <br> Head & Neck Surgeon, Khulna Medical College</p>
+            </div>
+            <div class="footer-box">
+                <h3>Contact Info</h3>
+                <div class="info-box">
+                    <img src="./assets/images/icon/Calling.svg" alt="icon">
+                    <p>+880 1720 500 437</p>
+                </div>
+                <div class="info-box">
+                    <img src="./assets/images/icon/Location.svg" alt="icon">
+                    <p>9079 Park Road London SE80 5WZ</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
